@@ -6,7 +6,7 @@ import {Footer} from "../components/Footer"
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export function Home() {
   return (
     <>
       <Head>
@@ -18,7 +18,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
-            Hello Index&nbsp;
+            Hello About pages&nbsp;
             <code className={styles.code}>pages/index.js</code>
           </p>
           <div>
